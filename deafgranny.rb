@@ -3,10 +3,11 @@ answer = ''
 while answer != 'BYE' 
 	year = 1930 + rand(21)
 	answer = gets.chomp
-	# if answer is not UPPERCASE
+	# if answer is lowercase
 	if answer != answer.upcase
 		puts 'HUH? SPEAK UP, SONNY!'
 	else
+	# answer is UPCASE
 		if answer == 'BYE'
 		puts 'BYE BYE, DEARIE!'
 		else	
